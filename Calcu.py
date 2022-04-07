@@ -4,7 +4,7 @@ listOfNumbers = []
 ops = {'+' : operator.add, '-' : operator.sub, '*' : operator.mul, '/' : operator.truediv, '%' : operator.mod, '^' : operator.xor,}
 
 
-print('Welcome to the EasyCalcu!\nEvery numbers and operation seperate by Enter \nUse E to close an aplication')
+print('Welcome to the EasyCalcu!\nEvery numbers and operator seperate by Enter \nUse E to close an aplication')
 
 while True:
   a = input()
