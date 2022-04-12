@@ -13,8 +13,10 @@ while True:
   else:
     if a == 'E':
       break
-    else:
+    elif a == "+" or a == "-" or a == "*" or a == "/" or a == "%":
       task = a
+    else:
+      print("I understand only + = * / % E")
   if len(listOfNumbers) == 2:
     print('= ' , ops[task](listOfNumbers[0],listOfNumbers[1]))
     listOfNumbers.clear()
